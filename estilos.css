@@ -36,6 +36,7 @@ header
 {
 	background: #343854;
 	color: white;
+	overflow: hidden;
 	padding: 0.5em;
 }
 header figure
@@ -115,8 +116,7 @@ nav ul li a
 {
 	background: white;
 	border-bottom: 3px solid #22BCDE;
-	min-height: 12;
-	position:relative;
+	overflow: hidden;
 }
 #contenido .item .imagen_item
 {
@@ -145,7 +145,6 @@ nav ul li a
 	padding: 0.2em 0.5em;
 	text-decoration: none;
 }
-
 #contenido .item .imagen_item img
 {
 	width: 96px;
@@ -164,7 +163,6 @@ nav ul li a
 {
 	border: 1px solid red;
 	position: absolute;
-	top: 100%
 }
 
 
