@@ -5,7 +5,7 @@ a
 body
 {
 	background: #EEEEEE;
-	font-family: Arial;
+	font-family: "Lato";
 	font-size: 16px; 
 }
 footer
@@ -116,12 +116,9 @@ nav ul li a
 {
 	background: white;
 	border-bottom: 3px solid #22BCDE;
-	overflow: hidden;
-}
-#contenido .item .imagen_item
-{
-	float: left;
-	margin: 0 1em 0 0;	
+	margin-bottom: 2em;
+	min-height: 128px;
+	position: relative;
 }
 #contenido .item .autor_item
 {
@@ -129,11 +126,12 @@ nav ul li a
 }
 #contenido .item .datos_item
 {
+	margin-top: 1em 1em 0 0;
 	text-align: right;
 }
-#contenido .item .datos_item
+#contenido .item .datos_item .fecha_item
 {
-	color: #AAA;
+	color: #AAA;	
 }
 #contenido .item .datos_item .tag_item
 {
@@ -145,6 +143,11 @@ nav ul li a
 	padding: 0.2em 0.5em;
 	text-decoration: none;
 }
+#contenido .item .imagen_item
+{
+	float: left;
+	margin: 0 1em 0 0;	
+}
 #contenido .item .imagen_item img
 {
 	width: 96px;
@@ -153,6 +156,7 @@ nav ul li a
 {
 	font-size: 1.2em;
 	font-style: italic;
+	padding-top: 1em;
 }
 #contenido .item .titulo_item a
 {
@@ -161,11 +165,20 @@ nav ul li a
 }
 #contenido .item .votacion
 {
-	border: 1px solid red;
+	background: white;
+	border-radius: 0 0 0.5em 0.5em;
+	left: 1%;
+	margin-top: 3px;
+	padding: 0.2em 0.5em;
 	position: absolute;
+	top:100%;
+	width: 95%;
 }
-
-
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item
+{
+	float: left;
+}
 
 
 
